@@ -7,7 +7,7 @@ var camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeigh
 
 //render
 var renderer = new THREE.WebGLRenderer();
-rendered.setSize(window.innerWidth/window.innerHeight);
+renderer.setSize(window.innerWidth/window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 renderer.render(scene, camera);
